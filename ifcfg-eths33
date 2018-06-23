@@ -1,13 +1,10 @@
-# Created by cloud-init on instance boot automatically, do not edit.
-#
-BOOTPROTO=static
-DEFROUTE=yes
-DEVICE=eth0
-GATEWAY=192.168.0.1
-HWADDR=00:0c:29:ca:00:dd
+DEVICE="ens33"
+BOOTPROTO="static"
+HWADDR="00:0C:29:CA:00:DD"
+NM_CONTROLLED="yes"
+ONBOOT="yes"
+TYPE="Ethernet"
 IPADDR=192.168.0.114
 NETMASK=255.255.255.0
-NM_CONTROLLED=no
-ONBOOT=yes
-TYPE=Ethernet
-USERCTL=no
+GATEWAY=192.168.0.1
+DNS1=8.8.8.8
